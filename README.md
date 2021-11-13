@@ -9,9 +9,8 @@
    Now by importing the errorhandle in productController file we will use it to getProductDetails.
 4. After doing all these things, we will aslo go to test on the postman.
 5. The errorhander is complete, but what about async error? -> Whenever we are told to use async/await function, We should always use try/catch block with it. Try block will run only when the code inside it is successfully true., Otherwise the code inside catch will run then we will create an errorhandle for it which will be special for async.
-
--> Why are we using ty/catch what type of error will the try/catch block run on?
-   For Example:- When this thing will come in handy, when we create the product, if we dosn't put some details in it then it will continue to be processed in the server, so our server will keep getting ruined.
+   Why are we using ty/catch what type of error will the try/catch block run on?
+   For Example:- When this thing will come in handy, when we create the product, if we dosn't put some details in it then it will    continue to be processed in the server, so our server will keep getting ruined.
    So to solve this problem we use try/catch block so that if it work successfully it will give result, else show error it will work in our try/catch block.
 6. Now these is only one type of error which is -- that when we put the database link wrong, then what kind of error will we get from it this type of error is called Unhandled Promise Rejection.
    So the reason for getting this kind of error is that from where our server has crashed, this is the error for that.
